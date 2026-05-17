@@ -17,7 +17,8 @@
 
   // Format
   "clock": {
-    "format": "{:%d/%m %H:%M}"
+    "format": "{:%d/%m %H:%M}",
+    "tooltip-format": "{:%A, %d %B %Y}"
   },
   "cpu": {
     "format": " {usage}%"
@@ -47,7 +48,7 @@
   },
   "custom/power": {
     "format": "",
-    "tooltip": false,
+    "tooltip-format": "Power off",
     "on-click": "systemctl poweroff"
   }
 }
