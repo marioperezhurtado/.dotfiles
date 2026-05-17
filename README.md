@@ -21,8 +21,8 @@ Hyprland
 | Menu                 | Rofi                                  |
 | File manager         | Dolphin                               |
 | Status bar           | Waybar                                |
-| Audio                | Pipewire (pavucontrol)                |
-| Network              | NetworkManager (nm-connection-editor) |
+| Audio                | Pipewire                              |
+| Network              | NetworkManager                        |
 | Bluetooth            | Blueman                               |
 | Clipboard            | Cliphist                              |
 | Wallpaper            | Swaybg                                |

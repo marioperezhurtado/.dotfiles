@@ -1,0 +1,6 @@
+# Auto-dismiss after 5s 
+default-timeout=5000
+ignore-timeout=1
+
+# Newest notifications on top
+sort=-time
