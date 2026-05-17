@@ -3,13 +3,13 @@
 [GNU Stow](https://www.jakewiesler.com/blog/managing-dotfiles)
 
 ## OS
-arch
+Arch
 
 ## Shell
-fish
+Fish
 
 ## Terminal emulator
-kitty
+Kitty
 
 ## Window manager
 Hyprland
@@ -48,7 +48,7 @@ Swaybg
 JetBrainsMono Nerd Font
 
 ## Text editor
-NeoVim
+Neovim
 
 ## Browser
 Helium

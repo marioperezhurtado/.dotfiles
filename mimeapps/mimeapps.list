@@ -1,0 +1,22 @@
+
+[Default Applications]
+
+# Browser
+text/html=helium.desktop
+x-scheme-handler/http=helium.desktop
+x-scheme-handler/https=helium.desktop
+x-scheme-handler/about=helium.desktop
+x-scheme-handler/unknown=helium.desktop
+
+# PDF
+application/pdf=helium.desktop
+
+# Image
+image/png=helium.desktop
+image/jpeg=helium.desktop
+image/webp=helium.desktop
+image/gif=helium.desktop
+
+# Video
+video/mp4=helium.desktop
+video/webm=helium.desktop

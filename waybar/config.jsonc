@@ -1,0 +1,47 @@
+{
+  // Top bar
+  "position": "top",
+
+  // Modules
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "network",
+    "custom/bluetooth",
+    "pulseaudio",
+    "battery"
+  ],
+
+  // Format
+  "clock": {
+    "format": "{:%d/%m %H:%M}"
+  },
+  "cpu": {
+    "format": " {usage}%"
+  },
+  "memory": {
+    "format": " {}%"
+  },
+  "network": {
+    "format": "󰖩 {ipaddr}",
+    "format-disconnected": "󰖪 ",
+    "on-click": "nm-connection-editor"
+  },
+  "custom/bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth-status.sh",
+    "interval": 5,
+    "return-type": "json",
+    "on-click": "blueman-manager"
+  },
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": " ",
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  }
+}
