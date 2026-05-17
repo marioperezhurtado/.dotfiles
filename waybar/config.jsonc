@@ -18,7 +18,14 @@
   // Format
   "clock": {
     "format": "{:%d/%m %H:%M}",
-    "tooltip-format": "{:%A, %d %B %Y}"
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month"
+    },
+    "actions": {
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
   },
   "cpu": {
     "format": " {usage}%"
