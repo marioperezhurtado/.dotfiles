@@ -1,12 +1,7 @@
 [user]
 	name = Mario Perez Hurtado
 	email = marioph10@gmail.com
-	username = marioperezhurtado
-[init]
-	defaultBranch = main
-	username = marioperezhurtado
 [init]
 	defaultBranch = main
 [credential "https://github.com"]
-	helper = 
 	helper = !/usr/bin/gh auth git-credential
