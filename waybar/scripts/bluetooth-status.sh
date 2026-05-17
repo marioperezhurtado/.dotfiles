@@ -8,5 +8,5 @@ if [ -z "$powered" ]; then
 elif [ -n "$connected" ]; then
     echo '{"text":"󰂱 ","class":"connected","tooltip":"Bluetooth connected"}'
 else
-    echo '{"text":"󰂯","class":"idle","tooltip":"Bluetooth idle"}'
+    echo '{"text":"󰂯 ","class":"idle","tooltip":"Bluetooth idle"}'
 fi

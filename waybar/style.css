@@ -22,9 +22,15 @@ window#waybar {
 #cpu,
 #memory,
 #network,
-#custom-bluetooth,
 #pulseaudio,
 #battery {
   padding: 2px 4px;
 }
 
+#custom-bluetooth {
+  padding: 2px 0px 2px 4px;
+}
+
+#custom-power {
+  padding: 2px 8px 2px 4px;
+}

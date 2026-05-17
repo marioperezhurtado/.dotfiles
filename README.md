@@ -14,35 +14,18 @@ Kitty
 ## Window manager
 Hyprland
 
-### Authentication agent
-Hyprpolkitagent
-
-### Notifications
-Mako
-
-### Menu
-Rofi
-
-### File manager
-Dolphin
-
-### Status bar
-Waybar
-
-### Audio
-Pipewire (pavucontrol)
-
-### Network
-NetworkManager (nm-connection-editor)
-
-### Bluetooth
-Blueman
-
-### Clipboard
-Cliphist
-
-### Wallpaper
-Swaybg
+| Feature              | Application                           |
+| -------------------- | ------------------------------------- |
+| Authentication agent | Hyprpolkitagent                       |
+| Notifications        | Mako                                  |
+| Menu                 | Rofi                                  |
+| File manager         | Dolphin                               |
+| Status bar           | Waybar                                |
+| Audio                | Pipewire (pavucontrol)                |
+| Network              | NetworkManager (nm-connection-editor) |
+| Bluetooth            | Blueman                               |
+| Clipboard            | Cliphist                              |
+| Wallpaper            | Swaybg                                |
 
 ## Font
 JetBrainsMono Nerd Font
