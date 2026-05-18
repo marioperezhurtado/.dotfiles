@@ -25,6 +25,7 @@ Hyprland
 | Network              | NetworkManager                        |
 | Bluetooth            | Blueman                               |
 | Clipboard            | Cliphist                              |
+| Screenshots          | Grim + slurp                          |
 | Wallpaper            | Swaybg                                |
 
 ## Font
