@@ -28,11 +28,20 @@ Hyprland
 | Screenshots          | Grim + slurp                          |
 | Wallpaper            | Swaybg                                |
 
-## Font
-JetBrainsMono Nerd Font
-
 ## Text editor
 Neovim
 
+| Feature              | Plugin                                |
+| -------------------- | ------------------------------------- |
+| Plugin manager       | lazy.nvim                             |
+| Color scheme         | rose-pine/neovim                      |
+
 ## Browser
 Helium
+
+## AI agent
+Opencode
+
+## Font
+JetBrainsMono Nerd Font
+
