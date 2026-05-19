@@ -31,10 +31,15 @@ Hyprland
 ## Text editor
 Neovim
 
-| Feature              | Plugin                                |
-| -------------------- | ------------------------------------- |
-| Plugin manager       | lazy.nvim                             |
-| Color scheme         | rose-pine/neovim                      |
+| Feature               | Plugin                                |
+| --------------------- | ------------------------------------- |
+| Plugin manager        | lazy.nvim                             |
+| Fuzzy finder          | telescope.nvim                        |
+| File marks            | harpoon                               |
+| Git integration       | vim-fugitive                          |
+| Undo history          | undotree                              |
+| AI completion         | copilot.vim                           |
+| Color scheme          | rose-pine                             |
 
 ## Browser
 Helium
