@@ -34,6 +34,9 @@ Neovim
 | Feature               | Plugin                                |
 | --------------------- | ------------------------------------- |
 | Plugin manager        | lazy.nvim                             |
+| LSP installer         | mason.nvim                            |
+| LSP configuration     | nvim-lspconfig                        |
+| Autocompletion        | blink.cmp                             |
 | Fuzzy finder          | telescope.nvim                        |
 | File marks            | harpoon                               |
 | Git integration       | vim-fugitive                          |
@@ -49,4 +52,3 @@ Opencode
 
 ## Font
 JetBrainsMono Nerd Font
-
