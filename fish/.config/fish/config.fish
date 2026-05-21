@@ -1,5 +1,7 @@
 set -Ux EDITOR nvim
 
+fish_vi_key_bindings
+
 # Start hyprland on tty1
 if test -z "$DISPLAY"; and test (tty) = /dev/tty1
     exec start-hyprland 
