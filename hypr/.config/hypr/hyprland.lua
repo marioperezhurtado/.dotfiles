@@ -51,6 +51,9 @@ hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphi
 -- Open screenshot
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd([[grim -g "$(slurp)" - | wl-copy]]))
 
+-- Take screenshot of entire screen
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd([[grim - | wl-copy]]))
+
 -- Fullscreen
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
 
