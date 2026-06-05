@@ -48,11 +48,12 @@ hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 -- Open clipboard history
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist"))
 
--- Open screenshot
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd([[grim -g "$(slurp)" - | wl-copy]]))
+-- Open screenshot editor for selected area
+hl.bind(mainMod .. " + S",
+  hl.dsp.exec_cmd([[grim -g "$(slurp)" - | satty --filename - --fullscreen --copy-command wl-copy]]))
 
--- Take screenshot of entire screen
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd([[grim - | wl-copy]]))
+-- Open screenshot editor for fullscreen
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd([[grim - | satty --filename - --fullscreen --copy-command wl-copy]]))
 
 -- Fullscreen
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))

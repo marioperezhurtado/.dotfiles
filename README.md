@@ -16,17 +16,17 @@ Hyprland
 
 | Feature              | Application                           |
 | -------------------- | ------------------------------------- |
-| Authentication agent | Hyprpolkitagent                       |
-| Notifications        | Mako                                  |
-| Menu                 | Rofi                                  |
-| File manager         | Dolphin                               |
-| Status bar           | Waybar                                |
-| Audio                | Pipewire                              |
-| Network              | NetworkManager                        |
-| Bluetooth            | Blueman                               |
-| Clipboard            | Cliphist                              |
-| Screenshots          | Grim + slurp                          |
-| Wallpaper            | Swaybg                                |
+| Authentication agent | hyprpolkitagent                       |
+| Notifications        | mako                                  |
+| Menu                 | rofi                                  |
+| File manager         | dolphin                               |
+| Status bar           | waybar                                |
+| Audio                | pipewire                              |
+| Network              | networkmanager                        |
+| Bluetooth            | blueman                               |
+| Clipboard            | cliphist                              |
+| Screenshots          | grim + slurp + satty                  |
+| Wallpaper            | swaybg                                |
 
 ## Text editor
 Neovim
