@@ -28,10 +28,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 -- Save
-vim.keymap.set("n", "<leader>w", ":w<CR>")
-
--- Formatting
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+vim.keymap.set("n", "<leader>w", "<cmd>w<CR>")
 
 -- Location list navigation
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")

@@ -21,4 +21,15 @@ return {
       automatic_enable = true,
     },
   },
+
+  {
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
+    name = "mason-tool-installer",
+    dependencies = { "mason-org/mason.nvim" },
+    opts = {
+      ensure_installed = {
+        "prettier",
+      },
+    },
+  },
 }

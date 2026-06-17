@@ -4,7 +4,7 @@ return {
     version = "2.*",
 
     build = function()
-      require("blink.cmp").build():wait(60000)
+      require("blink.cmp").build():pwait()
     end,
 
     dependencies = {
